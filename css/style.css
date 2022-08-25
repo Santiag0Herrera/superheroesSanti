@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 154px;
+    width: 100vw;
+    margin-bottom: 203px;
+}
+
+header{
+    width: 100vw;
+}
+
+h1{
+    margin: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+h4{
+    margin: 0px 0px 0px 28px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.nav-top-bar{
+    display: flex;
+    width: 100%;
+    height: 38px;
+    background-color: #1CD1B0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav-bar{
+    background-color: #00669F;
+    height: 101px;
+    display: flex;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.card{
+    margin: 30px;
+    display: block;
+    background-color: #F3F3F3;
+    height: 529px;
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.like{
+    position:absolute;
+    margin: 15.88px;
+}
+
+.card-content{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+h2{
+    margin: 20px 0px 10px 0px;
+}
+
+button{
+    margin: 37px 0px 18px 0px;
+    width: 128.78px;
+    height: 48.52px;
+    color: #F3F3F3;
+    background-color: #00669F;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+p{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0px 16px 0px 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card-icon{
+    border-radius: 100px;
+    width: 120px;
+    height: 118px;
+}
+
+footer{
+    display: flex;
+    height: 51px;
+    background-color: #00669F;
+    color: #fff;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    width: 100vw;
+}
